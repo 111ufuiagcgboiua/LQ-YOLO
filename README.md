@@ -2,7 +2,8 @@
 This is an improved model based on YOLOv7, designed for object detection of two-wheeled vehicles on roads.    
 
 ## Code  
-The model code of LQ-YOLO is specifically presented in the '**models**' file.    
+The model code of LQ-YOLO is specifically presented in the '**models**' file.  
+The "models" file contains the original files and the improved code. The improved parts can be found in files such as `common.py` and `yolo.py`.  
 
 ## Dataset  
 The dataset used in the research is decompressed into the '**two-wheelers**' file.    
