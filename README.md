@@ -15,11 +15,11 @@ And check if the usage path is correct.
 
 ## Platform    
 My platform is like this:    
-Windows 11    
-NVIDIA 3070 gpu    
-cuda 12.4    
-python 3.9.19    
-PyTorch 2.3.1    
+- Windows 11    
+- NVIDIA 3070 gpu    
+- Cuda 12.4    
+- python 3.9.19    
+- PyTorch 2.3.1    
 
 ## Model    
 The libraries that the model needs to be configured with can be downloaded from `requirements.txt `     
