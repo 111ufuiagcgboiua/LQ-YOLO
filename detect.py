@@ -168,9 +168,9 @@ def detect(save_img=False):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', nargs='+', type=str, default='C:\malongyu\yolov7-main\yolov7-main/runs/train\exp36/weights/best.pt',
+    parser.add_argument('--weights', nargs='+', type=str, default='../runs/train\exp/weights/best.pt',
                         help='model.pt path(s)')
-    parser.add_argument('--source', type=str, default='C:\malongyu\yolov7-main\yolov7-main/two-wheelers/test',
+    parser.add_argument('--source', type=str, default='two-wheelers/test',
                         help='source')  # file/folder, 0 for webcam
     parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
     parser.add_argument('--conf-thres', type=float, default=0.25, help='obj1ect confidence threshold')
@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
     with torch.no_grad():
         if opt.update:  # update all models (to fix SourceChangeWarning)
-            for opt.weights in ['yolov7-main/runs/train/exp3/weights/best.pt']:
+            for opt.weights in ['weights/best.pt']:
                 detect()
                 strip_optimizer(opt.weights)
         else:
