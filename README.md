@@ -5,16 +5,16 @@
 This is an improved model based on YOLOv7, designed for object detection of two-wheeled vehicles on roads. And mainly investigates the enhancement of the detection performance of two-wheeled vehicles through a lightweight detection framework and a multi-scale feature fusion module.  
     
 
-## Code  
+## Code     
+The model code of LQ-YOLO is specifically presented in the '**models**' file.  
+The "models" file contains the original files and the improved code. The improved parts can be found in files such as `common.py` and `yolo.py`.  
+
+## Dataset  
 The data used in this paper is from the MS COCO2017 and the Objects21-vehicle datasets. You can choose to use the dataset employed in this study, and you can also use the official datasets for joint verification.   
 Preparation of MS COCO2017 data.  
 ```
 bash scripts/get_coco.sh
 ```  
-The model code of LQ-YOLO is specifically presented in the '**models**' file.  
-The "models" file contains the original files and the improved code. The improved parts can be found in files such as `common.py` and `yolo.py`.  
-
-## Dataset  
 The dataset used in the research is decompressed into the '**two-wheelers**' file.    
 Please note that the usage path of the training set is `two-wheelers/train`  
 And check if the usage path is correct.    
