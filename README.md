@@ -1,8 +1,9 @@
 # LQ-YOLO  
 - '**Enhanced Two-wheeler Detection via Lightweight Cross-scale Feature Fusion Network (LQ-YOLO)**'    
   by Yingjin Zhang, Longyu Ma et al, The Visual Computer
-This paper mainly investigates the enhancement of the detection performance of two-wheeled vehicles through a lightweight detection framework and a multi-scale feature fusion module.  
-This is an improved model based on YOLOv7, designed for object detection of two-wheeled vehicles on roads.    
+  
+This is an improved model based on YOLOv7, designed for object detection of two-wheeled vehicles on roads. And mainly investigates the enhancement of the detection performance of two-wheeled vehicles through a lightweight detection framework and a multi-scale feature fusion module.  
+    
 
 ## Code  
 The data used in this paper is from the MS COCO2017 and the Objects21-vehicle datasets. You can choose to use the dataset employed in this study, and you can also use the official datasets for joint verification.   
