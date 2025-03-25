@@ -1,5 +1,5 @@
 # LQ-YOLO  
-- ['**Enhanced Two-wheeler Detection via Lightweight Cross-scale Feature Fusion Network (LQ-YOLO)**']  
+- '**Enhanced Two-wheeler Detection via Lightweight Cross-scale Feature Fusion Network (LQ-YOLO)**'    
   by Yingjin Zhang, Longyu Ma et al, The Visual Computer
   
 This is an improved model based on YOLOv7, designed for object detection of two-wheeled vehicles on roads.    
